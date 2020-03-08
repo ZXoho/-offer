@@ -7,16 +7,16 @@ public class NumOf1 {
 
     public static void main(String[] args) {
         NumOf1 test = new NumOf1();
-        System.out.println(test.function(15));
+        System.out.println(test.function1(15));
     }
 
-    public int function(int n){
+    public int function1(int n){
         int count = 0;
         if(n == 0)
             return count;
         while (n!=0){
             count++;
-            n = n & (n-1);
+            n = n & (n-1); //抵消二进制最右一位1
         }
         return count;
     }
