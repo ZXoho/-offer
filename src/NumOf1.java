@@ -7,16 +7,36 @@ public class NumOf1 {
 
     public static void main(String[] args) {
         NumOf1 test = new NumOf1();
-        System.out.println(test.function1(15));
+        System.out.println(test.function2(15));
     }
 
-    public int function1(int n){
+    /**
+     * n = n & (n - 1), 抵消二进制最右一位1
+     * @param n
+     * @return
+     */
+    public int function1(int n) {
         int count = 0;
-        if(n == 0)
+        if (n == 0)
             return count;
-        while (n!=0){
+        while (n != 0) {
             count++;
-            n = n & (n-1); //抵消二进制最右一位1
+            n = n & (n - 1); //抵消二进制最右一位1
+        }
+        return count;
+    }
+
+    /**
+     * 依次遍历
+     * @param n
+     * @return
+     */
+    public int function2(int n) {
+        int count = 0;
+        char[] chars = Integer.toBinaryString(n).toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == '1')
+                count++;
         }
         return count;
     }
