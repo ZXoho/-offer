@@ -31,9 +31,16 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.JumpFloor">
+  <component name="RunManager" selected="Application.RectCover">
     <configuration name="JumpFloor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JumpFloor" />
+      <module name="Job" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectCover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RectCover" />
       <module name="Job" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -48,6 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectCover" />
         <item itemvalue="Application.JumpFloor" />
         <item itemvalue="Application.SameStringDel" />
       </list>
@@ -66,7 +74,7 @@
       <workItem from="1583288089770" duration="747000" />
       <workItem from="1583289165192" duration="14067000" />
       <workItem from="1583547939294" duration="7284000" />
-      <workItem from="1583632180556" duration="1166000" />
+      <workItem from="1583632180556" duration="2158000" />
     </task>
     <servers />
   </component>
@@ -78,22 +86,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583586049817" />
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1583597606216">
+    <state width="746" height="143" key="GridCell.Tab.0.bottom" timestamp="1583635976937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583597606216" />
-    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1583597606215">
+    <state width="746" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583635976937" />
+    <state width="746" height="143" key="GridCell.Tab.0.center" timestamp="1583635976937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583597606215" />
-    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1583597606215">
+    <state width="746" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583635976937" />
+    <state width="746" height="143" key="GridCell.Tab.0.left" timestamp="1583635976936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583597606215" />
-    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1583597606215">
+    <state width="746" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583635976936" />
+    <state width="746" height="143" key="GridCell.Tab.0.right" timestamp="1583635976937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583597606215" />
+    <state width="746" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583635976937" />
     <state x="272" y="57" key="SettingsEditor" timestamp="1583586058012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
