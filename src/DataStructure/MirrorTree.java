@@ -22,11 +22,11 @@ public class MirrorTree {
      * 递归遍历
      * @param root
      */
-    public void function1(BiTree root){
+    public void function1(TreeNode root){
         if(root == null)
             return;
 
-        BiTree temp = new BiTree(-1);
+        TreeNode temp = new TreeNode(-1);
         temp = root.right ;
         root.right =root.left;
         root.left = temp;
