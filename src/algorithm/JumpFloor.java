@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/7 0007
  * Description:

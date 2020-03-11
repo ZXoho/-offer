@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/8 0008
  * Description:输入一个整数，输出该数二进制表示中1的个数。

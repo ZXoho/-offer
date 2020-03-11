@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/8 0008
  * Description:输入一个整数数组，使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分

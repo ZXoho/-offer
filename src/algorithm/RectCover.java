@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/8 0008
  * Description:我们可以用2*1的小矩形横着或者竖着去覆盖更大的矩形。

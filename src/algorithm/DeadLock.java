@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/9 0009
  * Description:产生死锁的例子

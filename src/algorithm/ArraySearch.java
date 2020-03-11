@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/4 0004
  * Description:在一个二维数组中（每个一维数组的长度相同）

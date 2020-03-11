@@ -1,3 +1,5 @@
+package algorithm;
+
 import DataStructure.ListNode;
 
 import java.util.ArrayList;

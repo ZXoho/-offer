@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  * Created by zxoho on 2020/3/4 0004
  * Description:将一个字符串中的每个空格替换成“%20
