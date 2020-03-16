@@ -40,7 +40,7 @@ public class ReConstructBiTree {
      */
     public List<Integer> preOrder(TreeNode node){
         if(node != null){
-            result.add(node.data);
+            result.add(node.val);
             preOrder(node.left);
             preOrder(node.right);
         }
