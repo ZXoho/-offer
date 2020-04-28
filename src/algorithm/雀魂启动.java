@@ -2,6 +2,10 @@ package algorithm;
 
 import java.util.Arrays;
 
+/**
+ * 顺子的意思是递增的连续3个数字牌（例如234,567等），刻子的意思是相同数字的3个数字牌（例如111,777）
+ * 从36张牌中抽取了13张牌，他想知道在剩下的23张牌中，再取一张牌，取到哪几种数字牌可以和牌
+ */
 public class 雀魂启动 {
 
     public static void main(String[] args) {
